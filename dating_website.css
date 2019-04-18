@@ -1,0 +1,73 @@
+/*fieldset{
+	background-color: #FCFFE1;
+	border: #FFFF03 solid 8px;
+	font-size: 20px;
+}
+
+.div1{ 
+	font-size: 20px; 
+
+}
+
+.div1:hover{ 
+	font-size: 30px; 
+	overflow: hidden;
+}
+
+.div2{
+	float:left;
+	font-size: 20px;
+}
+
+.div2:hover{ 
+	font-size: 30px; 
+	overflow: hidden;
+}
+
+h1{
+	font-weight: bold;
+}*/
+
+fieldset{
+	background-color: lightyellow;
+	border: 10px solid yellow;
+	margin-bottom: 10px;
+	width:720px;
+}
+
+label {
+	width: 180px;
+	display: inline-block;
+	text-align: right;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+.Options {
+	width:auto;
+}
+
+.Range_Low, .Range_High {
+	text-align: center;
+	color: white;
+	display: inline-block;
+	width:60px;
+	vertical-align: top;
+}
+
+.Range_Low{
+	background-color: red;
+}
+
+.Range_High{
+	background-color: blue;
+}
+
+textarea{
+    width: 360px;
+	height:	50px;
+}
+
+label:hover, input:hover {
+	font-size: 20px;
+}
