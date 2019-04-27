@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+/*
+ * Yiwen Zhao
+ * Training assignment_1
+ * HTML
+ * Stu_Mang_Sys.html
+ */
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Student_Management</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <style type="text/css">
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow-y: auto;
+        }
+        
+        
+        </style>
+    </head>
+<body>
+    <div>
+        <div>
+            <h1>Student Data</h1><br>
+            <!--top choice list -->
+            <select>
+                <option value="Display 10 rows" selected>Display 10 rows</option> 
+                <option value="Display 20 rows" id="20t">Display 20 rows</option>
+                <option value="Display 50 rows" id="50t">Display 50 rows</option>
+                <option value="Display 100 rows" id="100t">Display 100 rows</option>
+                <option value="Display all rows" id="allt">Display all rows</option>
+            </select>
+
+            <input id="myInput" type="text" placeholder="Search..">
+            <select>
+                <option value="Add data" id="add">Add</option> 
+                <option value="Delete data" id="del">Del</option>
+            </select>
+            <input type="button" value="Add Submit" id="Asubmit">
+            <input type="button" value="Del Submit" id="Dsubmit">
+            <table id="insert_table" border="1" style="display:none;">
+                <tr>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>email</th>
+                    <th>location</th>
+                    <th>phone</th>
+                    <th>address</th>
+                    <th>marks</th>
+                </tr>
+                <tr>
+                    <th><input type="text" id="input_fname"></input></th>
+                    <th><input type="text" id="input_lname"></input></th>
+                    <th><input type="text" id="input_email"></input></th>
+                    <th><input type="text" id="input_location"></input></th>
+                    <th><input type="text" id="input_phone"></input></th>
+                    <th><input type="text" id="input_address"></input></th>
+                    <th><input type="text" id="input_marks"></input></th>
+                </tr>               
+            </table>
+            
+            <table class="myTable" id="student_table" border="1">
+                
+                <tr>
+                    <th>Num</th>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>email</th>
+                    <th>location</th>
+                    <th>phone</th>
+                    <th>address</th>
+                    <th>marks</th>
+                </tr>
+
+            </table>
+            <!--bottom choice list -->
+            <select>
+                <option value="Display 10 rows" selected>Display 10 rows</option> 
+                <option value="Display 20 rows" id="20b">Display 20 rows</option>
+                <option value="Display 50 rows" id="50b">Display 50 rows</option>
+                <option value="Display 100 rows" id="100b">Display 100 rows</option>
+                <option value="Display all rows" id="allb">Display all rows</option>
+            </select>
+        </div>
+    </div>
+</body> 
+</html>
+ 
